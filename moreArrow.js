@@ -7,11 +7,11 @@ const getAge = (person) => person.age ;
 const student = { name:' saharear' , age: 34};
 const age = getAge(student)
 
-console.log(age)
+// console.log(age)
 
 const getThird = numbers => numbers[2];
 const third = getThird([4, 3, 6 , 5 ,56, 49 ]);
-console.log(third)
+// console.log(third)
 
 const double = num => num*2 ;
 const mul = double( 6)

@@ -2,11 +2,11 @@
 // for in used in object
 const numbers = [1, 3 , 4, 5 ,7];
 for (const number of numbers){
-    // console.log(number)
+     console.log(number)
 }
 const nobab = 'sirajoddollah' ;
 for(const char of nobab){
-    // console.log(char)
+    console.log(char)
 }
 
 const glass = {

@@ -6,7 +6,7 @@ color : 'golden' ,
 price : 120 ,
 isCleaned : true 
 }
-console.log(glass)
+// console.log(glass)
 
 // all poperty name
 const keys = Object.keys(glass)
@@ -21,14 +21,14 @@ const entries = Object.entries(glass)
 // console.log(entries)
 
 delete glass.isCleaned ;
-// console.log(glass)
+//  console.log(glass)
 
 const {isCleaned, ...shortglass} = glass;
 // console.log(shortglass)
 // freeze
 // Object.freeze(glass)
 glass.sourse = 'bangladesh' ;
-// console.log(glass)
+//  console.log(glass)
 Object.seal(glass)
 glass.color = 'red' 
-console.log(glass)
+ console.log(glass)
